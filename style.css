@@ -1,0 +1,37 @@
+body {
+  background-color: #252525;
+}
+
+.tipDiv {
+  text-align: left;
+  /* border: 1px solid; */
+  line-height: 1.7;
+  width: 280px;
+  height: 300px;
+  /* border-radius: 15px; */
+  padding: 1px;
+  margin-top: 100px;
+  margin-left: 600px;
+  background-color: antiquewhite;
+}
+h2 {
+  /* margin: 10px; */
+  text-align: center;
+  background-color: #0a043c;
+  width: 100%;
+  margin: 0;
+  color: white;
+  /* border-radius: 25px; */
+}
+
+.form-btn {
+  background-color: #4caf50; Green
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 20px;
+}

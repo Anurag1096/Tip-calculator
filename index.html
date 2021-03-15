@@ -20,16 +20,24 @@
     ></script>
   </head>
   <body>
-    <h1 style="color:antiquewhite">work in progress</h1>
+    <!-- <h1 style="color:antiquewhite">work in progress</h1> -->
     <div class = 'tipDiv'>
     
         <div class = 'container-fluid'><h2>Tip calculator</h2class></div>
       <form  >
           <label >How much was your bill?</label></br>
           <input id = "bilAmt" type="text"></br>
+          <label>How was the service ?</label></br>
+          <input type="text" name="service" list="preference">
+    <datalist id="preference">
+      <option value="Ok">
+      <option value="Good">
+      <option value="Excellent">
+    </datalist></br>
           <label>How many people are sharing the bill?</label></br>
           <input id = 'billSplit' type="text"></br>
-          <button class="form-btn">calculate</button></br>
+          
+          <button class="form-btn">calculate</button></br></br>
           <span class="ans"></span>
 
       </form>
